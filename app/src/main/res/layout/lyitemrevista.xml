@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/lnid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D0B7D5"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgUsr"
+            android:layout_width="411dp"
+            android:layout_height="143dp" />
+
+        <TextView
+            android:id="@+id/lblNombre"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:accessibilityHeading="true"
+            android:background="#C69ACD"
+            android:text="Ciencias Sociales y economia"
+            android:textColor="#050505"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/lblEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8DFE8"
+            android:text="csye"
+            android:textColor="#090909"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+</LinearLayout>
